@@ -43605,7 +43605,15 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-left: auto;
   }
 }
+@media (max-width: 460px) {
+	.u-custom-font u-font-source-sans-pro u-text u-text-custom-color-1 u-title u-text-1 {
+		font-size: 42px;
+	}
 
+	.a_icon{
+		margin-left:30%;
+	}
+}
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/
